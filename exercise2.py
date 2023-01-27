@@ -9,9 +9,9 @@ class Quest:
         self.name = name
         self.description = description
         self.goal = goal
-        # Допишите два свойства класса.
         self.start_time = None
-        self.end_time = None 
+        self.end_time = None
+        # Допишите два свойства класса.
     
     # Напишите методы приема и сдачи квеста.
     def accept_quest(self):
@@ -31,8 +31,8 @@ class Quest:
             return f'Квест {self.name} окончен. Время выполнения квеста: {completion_time}'
         
     
-quest_name = '"Сбор пиксельники"'
-quest_goal = '"Соберите 12 ягод пиксельники."'
+quest_name = 'Сбор пиксельники'
+quest_goal = 'Соберите 12 ягод пиксельники.'
 quest_description = '''
 В древнем лесу Кодоборье растёт ягода "пиксельника".
 Она нужна для приготовления целебных снадобий.
